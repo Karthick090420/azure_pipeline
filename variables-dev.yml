@@ -53,8 +53,8 @@ variables:
   ####################################################################
 
   - name: AWScredentials
-    value: aws_deploy_user
-
+    value: Deployment 
+    
   - name: AWSRegionName
     value: us-east-1
 

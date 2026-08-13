@@ -56,7 +56,7 @@ stages:
                 # - download: current
                 - template: azure-pipeline-infra-tasks.yml
                   parameters:
-                    credentials: aws_deploy_user
+                    credentials: Deployment
                     regionName: us-east-1
                     bucketName: newdevbucketlblogsdeploy1
                     stackName: dev-pipelinestack
