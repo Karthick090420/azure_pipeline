@@ -1,7 +1,7 @@
 [
     {
         "ParameterKey": "VpcID",
-        "ParameterValue": "vpc-002e7fff5a1f86684"
+        "ParameterValue": "vpc-08982df1b0e853368"
     },
     {
         "ParameterKey": "SecurityGroupNamePrimary",
@@ -9,7 +9,7 @@
     },
     {
         "ParameterKey": "Subnet1ID",
-        "ParameterValue": "subnet-00abda75e2db93007"
+        "ParameterValue": "subnet-046af676987b77f15"
     },
     {
         "ParameterKey": "ServerInstanceType",
@@ -17,7 +17,7 @@
     },
     {
         "ParameterKey": "ServerImageId",
-        "ParameterValue": "ami-0ebfd941bbafe70c6"
+        "ParameterValue": "ami-0bdc7d025135d7b49"
     },
     {
         "ParameterKey": "ServerKeyName",
