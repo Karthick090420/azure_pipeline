@@ -1,0 +1,71 @@
+# Intg variables
+
+variables:
+
+  - name: VpcID
+    value: vpc-002e7fff5a1f86684
+
+  - name: SecurityGroupNamePrimary
+    value: intginstancesecuritygroup
+
+  - name: Subnet1ID
+    value: subnet-00abda75e2db93007
+
+  - name: ServerInstanceType
+    value: t2.micro
+
+  - name: ServerImageId
+    value: ami-0ebfd941bbafe70c6
+
+  - name: ServerKeyName
+    value: windows
+
+  - name: ServerName
+    value: intgec2instance
+
+  - name: Environment
+    value: intg
+
+  - name: IngressFromPort
+    value: 1433
+
+  - name: IngressToPort
+    value: 1433
+
+  - name: IngressCidrIp1
+    value: 10.0.2.1/24
+
+  - name: IngressIpProtocol
+    value: tcp
+
+  - name: EgressFromPort
+    value: 1433
+
+  - name: EgressToPort
+    value: 1433
+
+  - name: EgressCidrIp1
+    value: 10.0.2.11/24
+
+  - name: EgressIpProtocol
+    value: tcp
+
+  ####################################################################
+
+  - name: AWScredentials
+    value: aws_deploy_user
+
+  - name: AWSRegionName
+    value: us-east-1
+
+  - name: S3BucketName
+    value: newdevbucketlblogsdeploy
+
+  - name: AWSStackName
+    value: intg-pipelinestack
+
+  - name: TemplateName
+    value: AppID-Intg-Infra.yml
+
+  - name: InfraTemplatePath
+    value: Intg-Infra
